@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+{% include 'django_hosting_app/navigation.html' %}
+<br>
+{% block content %}
+{% endblock %}
+
+{% include 'django_hosting_app/footer.html' %}
+</body>
+</html>
